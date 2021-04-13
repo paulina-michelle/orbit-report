@@ -16,7 +16,7 @@ export class Satellite {
   
     shouldShowWarning () {
         let satelliteType = "Space Debris"
-        if (this.type === satelliteType.toLowerCase()) {
+        if (this.type.toLowerCase() === satelliteType.toLowerCase()) {
             return true;
         } else {
             return false;
